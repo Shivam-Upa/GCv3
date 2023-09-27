@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container mt-4">
+        <h3 class="display-6 spacing">
+            Face Recognition and Gender Classification Project
+        </h3>
+        <p>
+            Welcome to our project! We use advanced facial recognition technology to classify faces by gender.
+        </p>
+        <div class="parallel-box spacing">
+            <div class="box">
+                <h4>Face Recognition</h4>
+                <p>
+                    Our cutting-edge facial recognition software can identify and analyze faces in real-time. Try it out by uploading an image.
+                </p>
+                <div class="text-center">
+                    <img src="/static/images/fc.jpg" alt="Face Recognition" class="img-fluid" width="300">
+                </div>
+            </div>
+            <div class="box">
+                <h4>Gender Classification</h4>
+                <p>
+                    We can also determine the gender of a person from their facial features. Upload an image to see the result.
+                </p>
+                <div class="text-center">
+                    <img src="/static/images/GC.jpg" alt="Gender Classification" class="img-fluid" width="300">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+{% endblock %}
